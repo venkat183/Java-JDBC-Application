@@ -1,13 +1,13 @@
-Please Download MySQL server, MySQL Workbench, MySQL JConnector(for jar file) from WWW.MySQL.COM
-
 # Java-JDBC-Application
+Please Download MySQL server, MySQL Workbench, MySQL JConnector(for jar file) from **WWW.MySQL.COM**
+
 Java-JDBC-Application
-/*Create DB*/
+**/*Create DB*/**
 
 CREATE DATABASE database_name;
 
-/*Create Table*/
-
+**/*Create Table*/
+**
 Use MyDB;
 
 CREATE TABLE Persons (
@@ -19,7 +19,7 @@ CREATE TABLE Persons (
 );
 
 
-/*Insert Recored to table*/
+**/*Insert Recored to table*/**
 
 Insert into MyDB.Persons
 (ID, LastName, FirstName, Age)
@@ -27,7 +27,7 @@ values
 (1, 'Last 1', 'First 1', 22)
 
 
-/*Query to set permissions to root to access localhost: Please run this in SQL workbench*/
+**/*Query to set permissions to root to access localhost: Please run this in SQL workbench*/**
 
 FLUSH PRIVILEGES;
 ALTER USER 'root'@'localhost' IDENTIFIED BY ‘password';
@@ -38,8 +38,8 @@ Driver = “com.mysql.cj.jdbc.Driver”;
 Connection url = “jdbc:mysql://localhost:3306/MyDB”;
 
 
-
-/*Connect From Command Line*/
+**
+/*Connect From Command Line*/**
 
 Open your Mac terminal and type the command: mysql -u root -p
 
