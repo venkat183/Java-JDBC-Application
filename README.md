@@ -41,5 +41,5 @@ Connection url = “jdbc:mysql://localhost:3306/MyDB”;
 
 <b>Connect From Command Line:</b>
 
-Open your Mac terminal and type the command: mysql -u root -p
+Open your Mac terminal and type the command: mysql -u root -p.
 Now enter the Mysql password when prompted. After entering it should connect you to the MySQL server instance.
